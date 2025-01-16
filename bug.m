@@ -1,0 +1,1 @@
+This code snippet demonstrates an uncommon Objective-C error related to the use of `NSInvocation` and object lifetime management.  The problem arises when invoking a method on an object that has already been deallocated. This can happen if the object's retain count drops to zero before the `NSInvocation` is invoked.
